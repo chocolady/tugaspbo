@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Penerimaan" language="groovy" pageWidth="648" pageHeight="360" orientation="Landscape" columnWidth="608" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="447c3eac-c98a-49d8-8a55-7393aad58c1b">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="date1" class="java.util.Date">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="date2" class="java.util.Date">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     t_pembelian.`tgl_penerimaan` AS t_pembelian_tgl_penerimaan,
+     t_pembelian.`kd_obat` AS t_pembelian_kd_obat,
+     t_obat.`nama_obat` AS t_obat_nama_obat,
+     t_obat.`tgl_expire` AS t_obat_tgl_expire,
+     t_obat.`harga` AS t_obat_harga,
+     t_pembelian.`jumlah_terima` AS t_pembelian_jumlah_terima,
+     t_pembelian.`harga_terima` AS t_pembelian_harga_terima,
+     t_pembelian.`nama_suplier` AS t_pembelian_nama_suplier,
+     jumlah_terima*harga_terima as total
+FROM
+     `t_pembelian` t_pembelian
+join t_obat on t_pembelian.kd_obat=t_obat.kd_obat
+where tgl_penerimaan between $P{date1} and $P{date2}]]>
+	</queryString>
+	<field name="t_pembelian_tgl_penerimaan" class="java.sql.Date"/>
+	<field name="t_pembelian_kd_obat" class="java.lang.String"/>
+	<field name="t_obat_nama_obat" class="java.lang.String"/>
+	<field name="t_obat_tgl_expire" class="java.sql.Date"/>
+	<field name="t_obat_harga" class="java.lang.Integer"/>
+	<field name="t_pembelian_jumlah_terima" class="java.lang.Integer"/>
+	<field name="t_pembelian_harga_terima" class="java.lang.Integer"/>
+	<field name="t_pembelian_nama_suplier" class="java.lang.String"/>
+	<field name="total" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="15" width="608" height="20" backcolor="#CCCCCC" uuid="d2005670-30cd-4ef3-bb35-a5f852b7fa05"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN PENERIMAAN OBAT]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="11" width="79" height="20" backcolor="#CCCCCC" uuid="760f8109-813c-4c80-956a-451a0e0d89be"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[TANGGAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="11" width="95" height="20" backcolor="#CCCCCC" uuid="076c9d7b-aba7-4f94-a48a-a6ddd9e62a12"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[NAMA SUPLIER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="79" y="11" width="10" height="20" backcolor="#CCCCCC" uuid="cc9dd2ab-16f0-4ad4-857e-5c1eba0fa432"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="309" y="13" width="10" height="20" backcolor="#CCCCCC" uuid="370a936d-6611-4016-a099-dd6b3ec58639"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField pattern="yyyy-MM-dd">
+				<reportElement x="86" y="11" width="100" height="20" uuid="f06e75bf-1c81-4749-9913-32c107528d24"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_pembelian_tgl_penerimaan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="313" y="11" width="100" height="20" uuid="28eb6ca3-c14c-4cd0-a98d-bd2343a23e55"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_pembelian_nama_suplier}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="52" y="41" width="84" height="20" backcolor="#CCCCCC" uuid="3c51824d-b68b-4265-a43e-c11b7c7b9722"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[KODE OBAT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="136" y="41" width="88" height="20" backcolor="#CCCCCC" uuid="6a01997e-5478-4146-8d03-12a41417bb13"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[NAMA OBAT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="224" y="41" width="95" height="20" backcolor="#CCCCCC" uuid="e037139b-74d7-430b-8f5e-4813125a3909"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[EXPIRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="319" y="41" width="63" height="20" backcolor="#CCCCCC" uuid="110de397-ffa6-455c-81c0-932d14e55fa9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[JUMLAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="382" y="41" width="79" height="20" backcolor="#CCCCCC" uuid="1c2630dd-9429-46f5-8ec8-171f6cfbc970"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[HARGA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="461" y="41" width="79" height="20" backcolor="#CCCCCC" uuid="ea750e93-f32a-4f13-98cb-be6159a283c6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[NILAI TOTAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="52" y="60" width="488" height="1" uuid="6de70583-600f-4077-84d2-753fb40b5747"/>
+				<graphicElement>
+					<pen lineWidth="1.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement x="52" y="0" width="84" height="20" uuid="0df40cb4-1bc5-40f5-9360-91dc74582ffd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_pembelian_kd_obat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="136" y="0" width="88" height="20" uuid="f908f1e1-7b41-418a-8e25-b160fd926d88"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_obat_nama_obat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="224" y="0" width="95" height="20" uuid="b39ac061-525a-4ad9-80a4-f8f07cc83700"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_obat_tgl_expire}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="0" width="63" height="20" uuid="e3966242-5bca-4f52-92e4-24a804727244"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_pembelian_jumlah_terima}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="382" y="0" width="79" height="20" uuid="da08f4e5-c6ce-42d2-b567-afb4a117cfe4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_obat_harga}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="461" y="2" width="79" height="20" uuid="c0073d0a-3b85-4daf-8547-896ae262f7cf"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="121" splitType="Stretch">
+			<staticText>
+				<reportElement x="439" y="20" width="79" height="20" backcolor="#CCCCCC" uuid="5753d0be-64b8-458e-a035-91d4fb43cff0"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[...........,]]></text>
+			</staticText>
+			<textField pattern="dd MMMM yyyy">
+				<reportElement x="518" y="17" width="90" height="23" forecolor="#000000" uuid="dbcb7d1d-69c3-4aeb-8eb1-312fce67a21f"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="504" y="40" width="104" height="20" backcolor="#CCCCCC" uuid="25973825-7cc1-4a7b-a0d4-8fbabb3c5eb2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Penanggung Jawab]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="504" y="101" width="104" height="20" backcolor="#CCCCCC" uuid="a211cd94-65a1-4c5e-909f-86464e1c46b5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[...........]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

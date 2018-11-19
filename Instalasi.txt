@@ -1,0 +1,11 @@
+import db
+-buat database db_inventory
+-import file sql yang ada di folder db
+
+running apps tanpa editor
+-jalankan app manajemen inventory farmasi.jar yng ada di folder manajemen inventory farmasi
+
+running apps di netbeans
+-open project -> path folder project manajemen inventory farmasi
+-resolve lib jcalendar -> klik kanan libraries -> addjar/folder -> path manajemen inventory farmasi/lib/jcalendar.jar
+-running apps

@@ -1,0 +1,280 @@
+<html>
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <style type="text/css">
+    a {text-decoration: none}
+  </style>
+</head>
+<body text="#000000" link="#000000" alink="#000000" vlink="#000000">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="50%">&nbsp;</td><td align="center">
+
+<a name="JR_PAGE_ANCHOR_0_1"></a>
+<table style="width: 648px; border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" bgcolor="white">
+<tr>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 87px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 84px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 88px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 83px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 12px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 77px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 6px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 65px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 7px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 7px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 72px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 18px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="16"><img alt="" src="Stok_obat.jasper_files/px" style="width: 648px; height: 27px;"/></td>
+</tr>
+<tr valign="top">
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 20px;"/></td>
+  <td colspan="14" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal; font-weight: bold;">LAPORAN STOK OBAT</span></p></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 20px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="16"><img alt="" src="Stok_obat.jasper_files/px" style="width: 648px; height: 18px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="Stok_obat.jasper_files/px" style="width: 374px; height: 19px;"/></td>
+  <td colspan="6" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">HARGA</span></p></td>
+  <td colspan="4"><img alt="" src="Stok_obat.jasper_files/px" style="width: 117px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="6"><img alt="" src="Stok_obat.jasper_files/px" style="width: 374px; height: 1px;"/></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">NILAI TOTAL</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">KODE OBAT</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">NAMA OBAT</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">STOK</span></p></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">BELI</span></p></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">JUAL</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 1px;"/></td>
+  <td colspan="4"><img alt="" src="Stok_obat.jasper_files/px" style="width: 117px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">B001</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">Bodrek</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">24</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">625</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">15000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">500</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">B015</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">Antangin</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">90</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">2500</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">225000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">2000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">Ko011</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">test</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">099</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">aass</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">null</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">test</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">test</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">50</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">1250</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">62500</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">1000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">B001</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">Bodrek</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">24</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">625</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">15000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">500</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">B015</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">Antangin</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">90</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">2500</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">225000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">2000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 1px;"/></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">K0021</span></p></td>
+  <td rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">Test obat</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">100</span></p></td>
+  <td colspan="3"><img alt="" src="Stok_obat.jasper_files/px" style="width: 79px; height: 1px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">2000</span></p></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">200000</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 107px; height: 19px;"/></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 1px; height: 19px;"/></td>
+  <td colspan="2" rowspan="2" style="text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">1600</span></p></td>
+  <td colspan="2"><img alt="" src="Stok_obat.jasper_files/px" style="width: 38px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 375px; height: 1px;"/></td>
+  <td colspan="7"><img alt="" src="Stok_obat.jasper_files/px" style="width: 195px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="16"><img alt="" src="Stok_obat.jasper_files/px" style="width: 648px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="8"><img alt="" src="Stok_obat.jasper_files/px" style="width: 452px; height: 1px;"/></td>
+  <td colspan="4" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1; *line-height: normal;">742500</span></p></td>
+  <td colspan="4"><img alt="" src="Stok_obat.jasper_files/px" style="width: 117px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="5"><img alt="" src="Stok_obat.jasper_files/px" style="width: 362px; height: 19px;"/></td>
+  <td colspan="3" rowspan="2" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">NILAI TOTAL :</span></p></td>
+  <td colspan="4"><img alt="" src="Stok_obat.jasper_files/px" style="width: 117px; height: 19px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="5"><img alt="" src="Stok_obat.jasper_files/px" style="width: 362px; height: 1px;"/></td>
+  <td colspan="8"><img alt="" src="Stok_obat.jasper_files/px" style="width: 196px; height: 1px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="16"><img alt="" src="Stok_obat.jasper_files/px" style="width: 648px; height: 153px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="13"><img alt="" src="Stok_obat.jasper_files/px" style="width: 538px; height: 3px;"/></td>
+  <td colspan="2" rowspan="2" style=" vertical-align: middle;text-align: right;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">15 November </span></p></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 3px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="10"><img alt="" src="Stok_obat.jasper_files/px" style="width: 459px; height: 20px;"/></td>
+  <td colspan="3" style=" vertical-align: middle;text-align: right;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">...........,</span></p></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 20px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="Stok_obat.jasper_files/px" style="width: 524px; height: 20px;"/></td>
+  <td colspan="4" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">Penanggung Jawab</span></p></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 20px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="16"><img alt="" src="Stok_obat.jasper_files/px" style="width: 648px; height: 41px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="11"><img alt="" src="Stok_obat.jasper_files/px" style="width: 524px; height: 20px;"/></td>
+  <td colspan="4" style=" vertical-align: middle;text-align: center;"><p style="overflow: hidden; text-indent: 0px; "><span style="font-family: Times New Roman; color: #000000; font-size: 12px; line-height: 1; *line-height: normal;">...........</span></p></td>
+  <td><img alt="" src="Stok_obat.jasper_files/px" style="width: 20px; height: 20px;"/></td>
+</tr>
+<tr valign="top">
+  <td colspan="16"><img alt="" src="Stok_obat.jasper_files/px" style="width: 648px; height: 24px;"/></td>
+</tr>
+</table>
+
+</td><td width="50%">&nbsp;</td></tr>
+</table>
+</body>
+</html>

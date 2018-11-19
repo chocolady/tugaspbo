@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Struk_Penjualan" language="groovy" pageWidth="360" pageHeight="396" columnWidth="320" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8f5c19b2-fb17-42d8-b2bf-853098bbcfe7">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="bayar" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="kembali" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="kd_penjualan" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     t_kasir.`nama` AS t_kasir_nama,
+     t_obat.`nama_obat` AS t_obat_nama_obat,
+     t_obat.`harga` AS t_obat_harga_obat,
+     t_obat.`satuan` AS t_obat_satuan_obat,
+     t_penjualan.`jumlah_beli` AS t_penjualan_jumlah_beli,
+     t_penjualan.`sub_total` AS t_penjualan_sub_total,
+     t_penjualan.`tgl_penjualan` AS t_penjualan_tgl_penjualan,
+     t_penjualan.`kd_penjualan` AS t_penjualan_kd_penjualan
+FROM
+     `t_penjualan` t_penjualan
+JOIN t_obat on t_penjualan.kd_obat=t_obat.kd_obat join t_kasir on t_penjualan.id_kasir=t_kasir.id_kasir where kd_penjualan = $P{kd_penjualan}]]>
+	</queryString>
+	<field name="t_kasir_nama" class="java.lang.String"/>
+	<field name="t_obat_nama_obat" class="java.lang.String"/>
+	<field name="t_obat_harga_obat" class="java.lang.Integer"/>
+	<field name="t_obat_satuan_obat" class="java.lang.String"/>
+	<field name="t_penjualan_jumlah_beli" class="java.lang.Integer"/>
+	<field name="t_penjualan_sub_total" class="java.lang.Integer"/>
+	<field name="t_penjualan_tgl_penjualan" class="java.sql.Date"/>
+	<field name="t_penjualan_kd_penjualan" class="java.lang.String"/>
+	<variable name="grand_total" class="java.lang.Integer" calculation="Sum">
+		<variableExpression><![CDATA[$F{t_penjualan_sub_total}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="68" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="26" width="320" height="36" uuid="7d74d9ee-7071-437f-8cae-a98a88ebab98"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PANGANDARAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="320" height="26" uuid="b56b7c31-2b8f-4d5e-b8c4-72f55d1ca4d3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[APOTEK BHAKTI SANDAAN]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="68" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="-2" width="320" height="1" uuid="5779fd3c-d8dc-41bc-a0a7-5174320c76ef"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="45" y="28" width="79" height="20" uuid="b06e593d-087d-4899-85f1-69e89aa4cb7c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Tgl Pembelian]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="48" width="79" height="20" uuid="cb67cce3-cc35-4446-bfa2-1f3d25ef847a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Kasir]]></text>
+			</staticText>
+			<line>
+				<reportElement x="45" y="67" width="226" height="1" uuid="1009e9fd-4f31-44c2-a731-dc832daf737d"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="124" y="28" width="11" height="20" uuid="cd1f7b3f-9a84-4c4b-b625-123a50e75879"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="48" width="11" height="20" uuid="588066ea-45b8-4c6c-af82-44ab45714bb4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="135" y="28" width="100" height="20" uuid="d1c920ab-9ee4-419b-a227-3efc9314c246"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_penjualan_tgl_penjualan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="135" y="47" width="100" height="20" uuid="9f78d6e0-6ce8-45b8-a46a-6d394b604a3c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_kasir_nama}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="41" splitType="Stretch">
+			<textField>
+				<reportElement x="45" y="0" width="111" height="20" uuid="9272afcb-db1f-4289-81a6-b0bba8ec2cdd"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_obat_nama_obat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="45" y="20" width="41" height="20" uuid="6ed965c7-6515-4cf6-9b08-d52d6d2393b8"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_penjualan_jumlah_beli}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="156" y="20" width="100" height="20" uuid="01377efa-6e6d-4171-a707-141432cfccbf"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{t_penjualan_sub_total}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="156" y="0" width="100" height="20" uuid="b91258b1-dd28-4c98-8538-0967d96f1217"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_obat_satuan_obat}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="86" y="20" width="11" height="20" uuid="dceac941-56ae-4237-a116-f8eff7769d90"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[x]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="97" y="20" width="59" height="20" uuid="511c3000-3f03-4b7e-9653-866254b3ef01"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{t_obat_harga_obat}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="84" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="62" width="320" height="20" uuid="135143dd-c617-466a-b521-039174770b68"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[TERIMA KASIH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="42" width="79" height="20" uuid="d29e65a8-305e-4365-bb62-7f4ce9c87941"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[KEMBALIAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="177" y="22" width="11" height="20" uuid="e6b06ca8-3e22-4a7e-90d5-ddc6cee4a6fe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="22" width="79" height="20" uuid="e99623aa-696a-4af5-916d-f3eaa3d97b0e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[BAYAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="177" y="42" width="11" height="20" uuid="8c4e257e-7cf4-49da-bda0-1dc5e17b5ab3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="177" y="2" width="11" height="20" uuid="74b5df9b-22ab-4e95-893e-bd10ff559dc0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="98" y="2" width="79" height="20" uuid="2fb3d37e-e360-402d-b83a-cb1be61a0348"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[TOTAL]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="188" y="2" width="100" height="20" uuid="2c8943eb-f9df-440a-8e6f-5104131f2db4"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$V{grand_total}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="188" y="22" width="100" height="20" uuid="2ab115b2-d829-4e5c-b0ec-237d78e325ef"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{bayar}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="188" y="43" width="100" height="20" uuid="c5c7c813-20ea-4654-a1aa-f758a85c1d2e"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{kembali}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
